@@ -32,23 +32,26 @@
             border-radius: 100%;
             margin-left: 100px;
             }
+
+
+            .fadeIn{
+                animation: fadeInAnimation 3s ease-in-out;
+            }
+            
+            @keyframes fadeInAnimation{
+                from{
+                
+                    transform: scale(0);
+                }
+            
+                to{
+                    
+                    transform: scale(1);
+                }
+            }
 }
 
-.fadeIn{
-    animation: fadeInAnimation 2s ease-in-out;
-}
 
-@keyframes fadeInAnimation{
-    from{
-        opacity: 0;
-        transform: scaleY(50px);
-    }
-
-    to{
-        opacity: 0;
-        transform: scaleY(0px);
-    }
-}
 
 
 .read-more {
