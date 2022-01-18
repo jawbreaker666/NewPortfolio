@@ -1,0 +1,58 @@
+
+.container-overlay{
+  
+    margin: 0;
+    background-color: rgb(83, 83, 83);
+    height: 100vh;
+    width: 100vw;
+
+
+
+    p{
+    
+        color: rgb(245, 220, 81);
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 700;
+    
+        display: flex;
+        margin-top: 200px;
+        justify-content: space-around;
+        font-size:50px;
+        padding-left: 150px;
+        padding-right: 150px;
+       
+    }
+    
+       
+    
+        img{
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 100%;
+            margin-left: 100px;
+            }
+}
+
+.fadeIn{
+    animation: fadeInAnimation 2s ease-in-out;
+}
+
+@keyframes fadeInAnimation{
+    from{
+        opacity: 0;
+        transform: scaleY(50px);
+    }
+
+    to{
+        opacity: 0;
+        transform: scaleY(0);
+    }
+}
+
+
+.read-more {
+    position: absolute;
+    bottom: 24px;
+    margin-left: 730px;
+}

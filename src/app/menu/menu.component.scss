@@ -1,0 +1,28 @@
+header{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    top: 0px;
+    right: 0px;
+    padding: 40px;
+  
+
+    a{
+        color: white;
+        text-decoration: none;
+        margin-left: 40px;
+        font-family: "Nunito Sans", sans-serif;
+        margin-right: 50px;
+
+        &:hover{
+            color: rgb(132, 132, 132);
+        }
+    }
+
+
+
+    img{
+        height: 50px;
+        
+    }
+}

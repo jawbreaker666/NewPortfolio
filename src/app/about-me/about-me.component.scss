@@ -1,0 +1,72 @@
+
+
+//aboutme
+.conatiner-overlay4{
+    background-color:rgb(41, 41, 41);
+    height: 110vh;
+    width: 100vw;
+    max-width: 100%;
+   
+
+    p{
+    
+        color: white;
+        font-family: 'Nunito Sans', sans-serif;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        font-size: xx-large;
+        
+       
+    }
+
+}
+
+.header4{
+    color: white;
+    font-family: "Nunito Sans", sans-serif;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: xx-large;
+    margin-top: 10;
+}
+
+.about-me{
+
+  
+    p{
+    
+        color: white;
+        font-family: 'Nunito Sans', sans-serif;
+        //font-size: 20px;
+        display: flex;
+        //margin-top: 200px;
+        justify-content: space-around;
+        //font-size: xx-large;
+        //padding-left: 150px;
+        //padding-right: 150px;
+        font-size: unset;
+        //margin-top: 200px;
+
+        img{
+        
+            height: 5vw;
+            object-fit: cover;
+            margin-top: 100px;
+        }
+
+       
+    }
+    
+    }
+
+
+.about-me-picture{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 100%;
+    margin-left: 100px;
+
+}

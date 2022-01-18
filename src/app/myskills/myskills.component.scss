@@ -1,0 +1,81 @@
+
+//skills
+.header2{
+    color: white;
+    font-family: "Nunito Sans", sans-serif;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: xx-large;
+    margin-top: 10;
+
+}
+
+.container-overlay2{
+
+    background-color: rgb(41, 41, 41);
+    height: 100vh;
+    width: 100vw;
+    max-width: 100%;
+   
+
+    p{
+    
+        color: white;
+        font-family: 'Nunito Sans', sans-serif;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        font-size: xx-large;
+       
+       
+    }
+    }
+
+    
+.skills{
+    //display: flex;
+    justify-content: space-around;
+    
+    img{
+        
+        height: 5vw;
+        object-fit: cover;
+        margin-top: 100px;
+    }
+
+    p{
+        color: white;
+        font-family: 'Nunito Sans', sans-serif;
+        display: flex;
+        text-align: center;
+        justify-content: space-around;
+        font-size:20px;
+       
+     
+    }
+}
+
+.skills2{
+    display: flex;
+    justify-content: space-around;
+    
+    img{
+        
+        height: 5vw;
+        object-fit: cover;
+        margin-top: 100px;
+    }
+
+    p{
+        color: white;
+        font-family: 'Nunito Sans', sans-serif;
+        display: flex;
+        text-align: center;
+        justify-content: space-around;
+        font-size:20px;
+      
+    
+    }
+
+}
