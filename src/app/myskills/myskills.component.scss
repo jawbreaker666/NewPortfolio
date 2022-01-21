@@ -39,8 +39,8 @@
     
     img{
         
-        height: 5vw;
-        object-fit: cover;
+        
+        object-fit: contain;
         margin-top: 100px;
     }
 
@@ -62,9 +62,10 @@
     
     img{
         
-        height: 5vw;
-        object-fit: cover;
+       
+        object-fit: contain;
         margin-top: 100px;
+        margin-left: 30px;
     }
 
     p{

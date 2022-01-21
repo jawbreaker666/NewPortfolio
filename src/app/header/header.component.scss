@@ -56,6 +56,11 @@
 
 .read-more {
     position: absolute;
-    bottom: 24px;
-    margin-left: 730px;
+    display: flex;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    justify-content: center;
+    padding: 20px 0px;
+    
 }
