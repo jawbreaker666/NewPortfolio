@@ -1,0 +1,9 @@
+body{
+    margin: 0;
+}
+
+.datenschutz{
+    justify-content: center;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}

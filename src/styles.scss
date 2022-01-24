@@ -28,9 +28,16 @@ body{
         }
     }
 
-    .hide-mobile{
-        display: none;
-    }
+        .menu{
+            display: flex;
+            text-align: center;
+            align-items: center;
+            height: 1vh;
+            margin-left: 40px;
+            margin-right: 40px;
+            font-size: smaller;
+            justify-content: space-evenly;
+        }
 
     .skills{
         margin-left: 40px;
@@ -90,6 +97,10 @@ body{
     .about-me{
         flex-direction: column;
 
+        p{
+            margin-left: 80px;
+        }
+
     .about-me-picture{
         border-radius: 100%;
         justify-content: center;
@@ -98,17 +109,56 @@ body{
     }
 
     .about-me-text{
-        display: flex;
+      
         text-align: center;
         justify-content: center;
-        margin-right: 100px;
-       
         flex-direction: column;
+        align-items: center;
 
         img{
-            margin-left: 80px;
+            text-align: center;
+            align-items: center;
         }
       
     }
+
+    .about-me-home{
+       
+       text-align: center;
+       align-items: center;
+       justify-content: center;
+
+     
+    }
+
+    .about-me-school{
+      
+        object-fit: cover;
+        text-align: center;
+  
+
+        img{
+          
+            object-fit: cover;
+          
+        }
+
+    }
+
+    .about-me-book{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        
+   
+
+        img{
+            height: 5vw;
+            object-fit: cover;
+           
+        }
+    }
+
+   
 }
 

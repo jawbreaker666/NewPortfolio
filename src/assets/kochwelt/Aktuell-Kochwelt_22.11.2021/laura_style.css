@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+}
+
+.TextPastaPesto{
+    display: flex;
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    margin-left: 100px;
+}
+
+.Bild_Pasta{
+    object-fit: cover;
+    margin-left: 50px;
+   
+    
+}
+
+.Bild_Pasta img{
+    width: 70% ;
+    height: 300px ;
+    object-fit: cover;
+    margin-left: 50px;
+}
+
+.text-under-pic {
+    display: flex;
+    margin-left: 90px;
+
+}
+
+.section-under-pic {
+    background-color: darkgrey;
+    padding: 5px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    margin-left: 100px;
+    margin: 5px;
+    
+}
+
+.section-under-pic img {
+    height: 18px;
+    padding-right: 1px;
+    margin-left: 10px;
+}
+
+
+.portionen{
+    margin-left: 100px;
+    margin-top: 50px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.table{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 50px;
+    }
+    
+    .bg1 {
+        background-color: rgb(211, 207, 207);
+        width: 30%;
+        padding: 5px 0px;
+    
+        border-radius: 10px;
+    }
+    
+    .bg2 {
+        background-color: white;
+        width: 30%;
+        padding: 5px 0px;
+        border-radius: 10px;
+    }
+
+    .Zubereitung{
+        font-family: 'Raleway', sans-serif;
+        font-size: 15px;
+        margin-left: 100px;
+        margin-top: 50px;
+        
+    }
+
+    .marginTop{
+        margin-left: 100px;
+        font-family: 'Raleway', sans-serif;
+    }
+
+
+
+    .backToStart {
+        color: black;
+        text-decoration: none;
+    }
+    
+    .backToStart:hover {
+        border-bottom: solid 4px rgb(50, 50, 50);
+        transition: all 225ms ease-in-out;
+        color: rgb(50, 50, 50);
+    }
+      
+    
+     
+

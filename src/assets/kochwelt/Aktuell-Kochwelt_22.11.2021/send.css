@@ -1,0 +1,15 @@
+body{
+    margin: 20px;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+}
+
+
+.send {
+    display: flex;
+    
+    flex-direction: column;
+}
+
