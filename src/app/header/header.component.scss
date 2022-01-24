@@ -18,8 +18,8 @@
         margin-top: 200px;
         justify-content: space-around;
         font-size:50px;
-        padding-left: 150px;
-        padding-right: 150px;
+        // padding-left: 150px;
+        // padding-right: 150px;
        
     }
     
@@ -30,7 +30,7 @@
             height: 200px;
             object-fit: cover;
             border-radius: 100%;
-            margin-left: 100px;
+            // margin-left: 100px;
             }
 
 
@@ -61,6 +61,36 @@
     left: 0px;
     right: 0px;
     justify-content: center;
-    padding: 20px 0px;
+    padding: 40px 0px;
     
 }
+
+
+@media (max-width: 1000px){
+    .container-overlay{
+     
+        justify-content: center;
+        text-align: center;
+
+        p {font-size: 1.6em !important;
+            text-align: center;
+        
+        }
+
+        img{
+            width: 6em !important;
+            height: 6em !important;
+           object-fit: cover;
+            border-radius: 100%;
+            margin-top: 30px;
+            margin-inline: auto;
+        }
+
+        .fadeIn{
+            flex-direction: column;
+        
+            margin-top: 100px;
+
+        }
+
+    }}

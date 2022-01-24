@@ -9,8 +9,15 @@
     text-align: center;
     justify-content: center;
     font-size: xx-large;
-    margin-top: 10;
+
+   
+    
+
+    span{
+        margin-top: 20px;
     }
+}
+
 
 .conatiner-overlay3{
     background-color:rgb(83, 83, 83);
@@ -31,14 +38,26 @@
        }
 
 //Projekt1
+
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+
+
 .work1{
     
     margin-top: 100px;
-    justify-content: space-evenly;
+  
 
 .projekts3{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    
+    margin: 50px;
 
     p{
         flex-direction: column;
@@ -67,16 +86,18 @@
         .work2{
     
             margin-top: 100px;
-            justify-content: space-evenly;
         
-        .projekts3{
-            display: flex;
-            justify-content: space-evenly;
         
-            p{
-                flex-direction: column;
+             p{
+                flex-direction: column;}
             }
-            }
+
+            .projekts3{
+                display: flex;
+                justify-content: center;
+                
+                margin: 50px;}
+            
         
         
                 
@@ -92,7 +113,7 @@
             .titel1{
                 text-align: center;
             }    
-            }
+            
         
         
         
@@ -102,17 +123,18 @@
 .work3{
     
     margin-top: 100px;
-    justify-content: space-evenly;
+   
 
-.projekts3{
-    display: flex;
-    justify-content: space-evenly;
 
     p{
         flex-direction: column;
     }
     }
 
+    .projekts3{
+        display: flex;
+        justify-content: center;
+        margin: 50px;}
 
     
     img{
@@ -127,7 +149,7 @@
     .titel1{
         text-align: center;
     }    
-    }
+    
 
 
 
@@ -135,18 +157,19 @@
 .work4{
     
     margin-top: 100px;
-    justify-content: space-evenly;
+   
 
-.projekts3{
-    display: flex;
-    justify-content: space-evenly;
 
     p{
         flex-direction: column;
     }
     }
 
-
+    .projekts3{
+        display: flex;
+        justify-content: center;
+        
+        margin: 50px;}
     
     img{
         width: 250px;
@@ -160,7 +183,7 @@
     .titel1{
         text-align: center;
     }    
-    }
+    
 
 
 
@@ -168,17 +191,20 @@
 .work5{
     
     margin-top: 100px;
-    justify-content: space-evenly;
+ 
 
-.projekts3{
-    display: flex;
-    justify-content: space-evenly;
+
 
     p{
         flex-direction: column;
     }
     }
 
+    .projekts3{
+        display: flex;
+        justify-content: center;
+        
+        margin: 50px;}
 
     
     img{
@@ -193,10 +219,27 @@
     .titel1{
         text-align: center;
     }    
+    
+
+
+    @media (max-width: 1000px){
+
+        .work2{
+            margin-top: 10px;
+        }
+
+        .work3{
+            margin-top: 10px;
+        }
+
+        .work4{
+            margin-top: 10px;
+        }
+
+        .work5{
+            margin-top: 10px;
+        }
     }
-
-
-
 
 
 
