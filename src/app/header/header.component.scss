@@ -2,7 +2,7 @@
 .container-overlay{
   
     margin: 0;
-    background-color: rgb(83, 83, 83);
+    background-color: black;
     height: 100vh;
     width: 100vw;
 
@@ -35,18 +35,18 @@
 
 
             .fadeIn{
-                animation: fadeInAnimation 3s ease-in-out;
+                animation: fadeInAnimation 2s ease-in-out;
             }
             
             @keyframes fadeInAnimation{
                 from{
-                
-                    transform: scale(0);
+                    opacity: 0;
+                    transform: scale(95%);
                 }
             
                 to{
-                    
-                    transform: scale(1);
+                    opacity: 1;
+                    transform: scale(100%);
                 }
             }
 }

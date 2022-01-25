@@ -62,16 +62,22 @@
     p{
         flex-direction: column;
     }
+
+    a:link, a:visited {
+        text-decoration: none;
+       }
     }
 
 
     img{
-        width: 250px;
+        //width: 250px;
         object-fit: cover;
         display: flex; 
         align-items: center;
         border-radius: 10px;
         justify-content: space-evenly;
+        width: 250px;
+        height: 200px;
         }
 
     .titel1{
@@ -90,6 +96,10 @@
         
              p{
                 flex-direction: column;}
+
+                a:link, a:visited {
+                    text-decoration: none;
+                   }
             }
 
             .projekts3{
@@ -108,6 +118,8 @@
                 align-items: center;
                 border-radius: 10px;
                 justify-content: space-evenly;
+                height: 200px;
+                width: 250px;
                 }
         
             .titel1{
@@ -129,6 +141,10 @@
     p{
         flex-direction: column;
     }
+
+    a:link, a:visited {
+        text-decoration: none;
+       }
     }
 
     .projekts3{
@@ -139,6 +155,7 @@
     
     img{
         width: 250px;
+        height: 200px;
         object-fit: cover;
         display: flex; 
         align-items: center;
@@ -163,6 +180,10 @@
     p{
         flex-direction: column;
     }
+
+    a:link, a:visited {
+        text-decoration: none;
+       }
     }
 
     .projekts3{
@@ -173,6 +194,7 @@
     
     img{
         width: 250px;
+        height: 200px;
         object-fit: cover;
         display: flex; 
         align-items: center;
@@ -198,6 +220,10 @@
     p{
         flex-direction: column;
     }
+
+    a:link, a:visited {
+        text-decoration: none;
+       }
     }
 
     .projekts3{
@@ -209,6 +235,7 @@
     
     img{
         width: 250px;
+        height: 200px;
         object-fit: cover;
         display: flex; 
         align-items: center;
