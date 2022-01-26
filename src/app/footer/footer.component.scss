@@ -2,13 +2,17 @@
 
 //footer
 .container6{
-    background-color:rgb(41, 41, 41);
-    height: 30vh;
+    background-color:#292929;
+ 
     width: 100vw;
     max-width: 100%;
 }
 
 .footer-logo{
+    font-size: small;
+    font-family: "Nunito Sans", sans-serif;
+    color: white;
+    text-align: center;
    
    
 
@@ -16,7 +20,6 @@
         object-fit: contain;
         height: 100px;
         width: 100px;
-        margin-left: 50px;
         margin-top: 40px;
     }
 
@@ -24,22 +27,23 @@
     // margin-left: 10px;
     font-size: small;
     font-family: 'Nunito Sans', sans-serif;
+    color: white;
     }
 
 .footer-links{
      
-        text-align: center;
+   
         display: grid;
         text-decoration: none;
-        margin: auto;
+       
        font-family: 'Nunito Sans', sans-serif;
-       color: black;
+       color: white;
    
        
        
 
         a{
-            color: black;
+            color: white;
             text-decoration: none;
 
             &:hover{
@@ -58,13 +62,25 @@
 
 @media (max-width: 1000px){
 
+    .container6-style{
+        flex-direction: column;
+      
+        margin-right: 0px;
+    }
+
+    .container6{
+        max-height: 100%;
+    }
+
     .footer-logo{
         
         align-items: center;
+       
 
     .footer-links{
         align-items: center;
         flex-direction: column-reverse;
+        margin-left: 100px;
 
     .copyright{
         align-items: center;
