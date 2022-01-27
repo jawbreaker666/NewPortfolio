@@ -10,12 +10,12 @@
 
     p{
     
-        color: #3adee0;
+        color: white;
         font-family: 'Nunito Sans', sans-serif;
         font-weight: 700;
     
         display: flex;
-        margin-top: 200px;
+        margin-top: 150px;
         justify-content: space-around;
         font-size:50px;
         // padding-left: 150px;
@@ -57,7 +57,7 @@
 .read-more {
     position: absolute;
     display: flex;
-    bottom: 0px;
+    bottom: -100px;
     left: 0px;
     right: 0px;
     justify-content: center;

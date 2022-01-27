@@ -6,7 +6,7 @@
 
 .conatiner-overlay5{
     background-color:black;
-    height: 100vh;
+    //height: 100vh;
     width: 100vw;
     max-width: 100%;
 }
@@ -60,18 +60,66 @@
 }
 
 
+*, *::before, *::after{
+    box-sizing: border-box;
+}
 
-
-.send_Mail{
-    margin-top: 30px;
-    width: 100px;
-    height: 30px;
-    text-align: center;
-    border-radius: 10px;
-    border: 2px;
-    justify-content: center;
-    margin-bottom: 10px;
-    border: 3px solid rgb(58, 222, 224);
+.btn{
+    background-color: blue;
     color: black;
+    border: none;
+    outline: none;
+    position: relative;
+    cursor: pointer;
+    margin-top: 50px;
+
+    --background-color: blue;
+}
+
+.btn.btn-border-pop::before{
+
     cursor:pointer;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    border: var(--border-size) solid blue;
+    transition: top, left, right, bottom, 100ms ease-in-out;
+}
+
+    .btn.btn-border-pop:hover::before,
+    .btn.btn-border-pop:focus::before{
+        top: calc(var(--border-size) * -2);
+        left: calc(var(--border-size) * -2);
+        right: calc(var(--border-size) * -2);
+        bottom: calc(var(--border-size) * -2);
+        
+
+        
+        
+    }
+
+
+@media (max-width: 1000px){
+
+    .conatiner-overlay5{
+         height: 0px;
+         width: 0px;
+         max-width: 100px;
+         padding-bottom: 100px;
+         padding-left: 50px;
+         padding-right: 50px;
+
+    }
+
+    .contact{
+
+        p{
+            text-align: center;
+        }
+    }
+  
 }

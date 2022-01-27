@@ -13,9 +13,9 @@
 
 .container-overlay2{
 
-    background-color: rgb(41, 41, 41);
+    background-color: rgb(15, 15, 15);
     padding-bottom: 100px;
-    width: 100vw;
+   
     max-width: 100%;
    
 
@@ -42,15 +42,15 @@
 
     .container-rund{
         
-        height: 100px;
+        height: 80px;
         object-fit: cover;
-        width: 100px;
-        background-color: rgb(201, 201, 201);
+        width: 80px;
+        background-color: white;
         border-radius: 100%;
-        border: solid;
+        border: solid 1px grey;
         position: absolute;
         top: -50px;
-        margin-left: 50px;
+        margin-left: 55px;
 
         img{
             object-fit: contain;
@@ -62,15 +62,15 @@
 
         .container-rund2{
         
-            height: 100px;
+            height: 80px;
             object-fit: cover;
-            width: 100px;
-            background-color: rgb(201, 201, 201);
+            width: 80px;
+            background-color: white;
             border-radius: 100%;
-            border: solid;
+            border: solid 1px grey;
             position: absolute;
             top: -50px;
-            margin-left: 50px;
+            margin-left: 55px;
     
             img{
                 object-fit: contain;
@@ -84,15 +84,15 @@
 
             .container-rund3{
         
-                height: 100px;
+                height: 80px;
                 object-fit: cover;
-                width: 100px;
-                background-color: rgb(201, 201, 201);
+                width: 80px;
+                background-color: white;
                 border-radius: 100%;
-                border: solid;
+                border: solid 1px grey;
                 position: absolute;
                 top: -50px;
-                margin-left: 50px;
+                margin-left: 55px;
         
                 img{
                     object-fit: contain;
@@ -113,9 +113,9 @@
     
     img{
         
-        margin-top: 25px;
+        margin-top: 17px;
         object-fit: contain;
-        width: 60px;
+        width: 50px;
        
     }
 
@@ -143,8 +143,9 @@
     img{
         
        
+        margin-top: 17px;
         object-fit: contain;
-        width: 60px;
+        width: 50px;
      
     }
 
@@ -174,8 +175,9 @@
     img{
         
        
+        margin-top: 17px;
         object-fit: contain;
-        width: 60px;
+        width: 50px;
   
     }
 
