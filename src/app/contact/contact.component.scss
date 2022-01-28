@@ -60,47 +60,19 @@
 }
 
 
-*, *::before, *::after{
-    box-sizing: border-box;
-}
 
-.btn{
-    background-color: blue;
-    color: black;
-    border: none;
-    outline: none;
-    position: relative;
-    cursor: pointer;
-    margin-top: 50px;
 
-    --background-color: blue;
-}
-
-.btn.btn-border-pop::before{
+.send_Mail{
 
     cursor:pointer;
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: -1;
-    border: var(--border-size) solid blue;
-    transition: top, left, right, bottom, 100ms ease-in-out;
+    margin-top: 30px;
+    border: 3px solid rgb(58, 222, 224);
+    border-radius: 10px;
+
+
 }
 
-    .btn.btn-border-pop:hover::before,
-    .btn.btn-border-pop:focus::before{
-        top: calc(var(--border-size) * -2);
-        left: calc(var(--border-size) * -2);
-        right: calc(var(--border-size) * -2);
-        bottom: calc(var(--border-size) * -2);
-        
 
-        
-        
-    }
 
 
 @media (max-width: 1000px){
