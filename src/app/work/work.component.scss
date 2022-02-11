@@ -1,7 +1,7 @@
 .container-overlay3{
 
     background-color: black;
-    padding-bottom: 100px;
+    padding-bottom: 110px;
    
     max-width: 100%;
 }
@@ -21,6 +21,12 @@
 
 .all-works{
     justify-content: space-around;
+}
+
+.all-works-zweite-reihe{
+    justify-content: space-around;
+    margin-top: 80px;
+    height: 230px;
 }
 
 
@@ -104,6 +110,12 @@
     //font-size: 1.25em;
     margin-top: 0.25em;
 }
+
+//Project 5
+.image-description5{
+    //font-size: 1.25em;
+    margin-top: 0.25em;
+}
     
     
     
@@ -130,16 +142,57 @@
     
     @media (max-width: 1000px){
 
+        .container-overlay3{
+            padding-bottom: 250px;
+      
+
         .all-works{
             flex-direction: column;
             align-items: center;
             margin: 50px;
+            margin-bottom: 150px;
+            margin-top: 0;
+        }
+
+
+
+        .image-img{
+            display: block;
+            width: 100%;
+            border: 5px solid white;
+            border-radius: 30px;
         }
 
         .image{
             width: 200px;
-            margin-top: 100px;
+            height: 180px;
+            margin-top: 50px;
         }
+    }
+
+    .all-works-zweite-reihe{
+        flex-direction: column;
+        align-items: center;
+        margin: 50px;
+        margin-bottom: 350px;
+        object-fit: cover;
+
+        .image-img{
+            display: block;
+            width: 100%;
+            border: 5px solid white;
+            border-radius: 30px;
+        }
+
+        .image{
+            width: 200px;
+            top: 100px;
+           
+        }
+      
+
+    
+    }
     }
 
 
